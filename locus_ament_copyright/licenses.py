@@ -1,4 +1,5 @@
 # Copyright 2021 PickNik Inc.
+# Copyright 2023 Locus Robotics Inc.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
@@ -10,7 +11,7 @@
 #      notice, this list of conditions and the following disclaimer in the
 #      documentation and/or other materials provided with the distribution.
 #
-#    * Neither the name of the PickNik Inc. nor the names of its
+#    * Neither the name of the Locus Robotics Inc. nor the names of its
 #      contributors may be used to endorse or promote products derived from
 #      this software without specific prior written permission.
 #
@@ -27,4 +28,9 @@
 # POSSIBILITY OF SUCH DAMAGE.
 
 
-picknik = 'Locus Robotics'
+import os
+from ament_copyright.licenses import read_license_data
+
+TEMPLATE_DIRECTORY = os.path.join(os.path.dirname(__file__), 'template')
+
+locus_proprietary = read_license_data(TEMPLATE_DIRECTORY, 'Locus Robotics Proprietary License', 'Locus Robotics', 'locus_proprietary')
