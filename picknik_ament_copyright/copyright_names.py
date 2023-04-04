@@ -27,4 +27,4 @@
 # POSSIBILITY OF SUCH DAMAGE.
 
 
-picknik = 'PickNik Inc.'
+picknik = 'Locus Robotics'
