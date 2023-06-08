@@ -1,7 +1,7 @@
 from setuptools import find_packages
 from setuptools import setup
 
-package_name = 'picknik_ament_copyright'
+package_name = 'locus_ament_copyright'
 
 setup(
     name=package_name,
@@ -17,26 +17,22 @@ setup(
         'template/*',
     ]},
     zip_safe=False,
-    author='Joe Schornak',
-    author_email='joseph.schornak@picknik.ai',
-    maintainer='Joe Schornak',
-    maintainer_email='joseph.schornak@picknik.ai',
-    url='https://github.com/PickNikRobotics/picknik_ament_copyright',
+    url='https://github.com/locusrobotics/locus_ament_copyright',
     classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD 3-Clause License',
         'Programming Language :: Python',
         'Topic :: Software Development',
     ],
-    description='Check source files for PickNik-specific copyright reference.',
+    description='Check source files for Locus Robotics-specific copyright reference.',
     license='BSD',
     tests_require=['pytest'],
     entry_points={
         'ament_copyright.copyright_name': [
-            'picknik = picknik_ament_copyright.copyright_names:picknik',
+            'locus = locus_ament_copyright.copyright_names:locus',
         ],
         'ament_copyright.license': [
-            'picknik_proprietary = picknik_ament_copyright.licenses:picknik_proprietary',
+            'locus_proprietary = locus_ament_copyright.licenses:locus_proprietary',
         ],
     },
 )
