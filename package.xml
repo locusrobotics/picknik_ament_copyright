@@ -6,6 +6,7 @@
   <description>
     Check Locus Robotics-specific copyright headers.
   </description>
+  <maintainer email="planning-and-control@locusrobotics.com">Planning And Control</maintainer>
   <license>BSD</license>
 
   <exec_depend>ament_copyright</exec_depend>
