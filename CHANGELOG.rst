@@ -2,8 +2,8 @@
 Changelog for package locus_ament_copyright
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.0 (2023-09-25)
+------------------
 * Added maintainer to package.xml
 * Switch to Locus
 * use locus robotics
