@@ -2,6 +2,9 @@
 Changelog for package locus_ament_copyright
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.5.0 (2025-06-06)
 ------------------
 
